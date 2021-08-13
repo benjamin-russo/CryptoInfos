@@ -14,6 +14,16 @@ L'utilisateur doit pouvoir:
 * visualiser le cours d'une cryptomonnaie
 * rechercher une cryptomonnaie
 
+### Prototypes
+
+#### Accueil
+
+![home picture](home.png)
+
+#### Recherche
+
+![search picture](search.png)
+
 ## Stack technique
 react, react-router-dom, axios, sass, highcharts, blockchain.com API
 
@@ -25,6 +35,7 @@ react, react-router-dom, axios, sass, highcharts, blockchain.com API
 
 ## Veille technique
 
-[recherche initial sur un API capable de fournir le cour des cryptomonnaies](https://openclassrooms.com/forum/sujet/recuperer-le-cour-des-cryptomonnaies)
+[recherche initial sur une API capable de fournir le cour des cryptomonnaies](https://openclassrooms.com/forum/sujet/recuperer-le-cour-des-cryptomonnaies)
 
 Projet intégralement réalisé par **Benjamin RUSSO**
+
