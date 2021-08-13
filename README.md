@@ -25,7 +25,7 @@ L'utilisateur doit pouvoir:
 ![search picture](search.png)
 
 ## Stack technique
-react, react-router-dom, axios, sass, highcharts, blockchain.com API
+react, react-router-dom, node-sass, sass, axios, highcharts, blockchain.com API
 
 ## Instructions
 
