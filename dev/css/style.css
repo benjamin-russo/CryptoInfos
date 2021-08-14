@@ -1,0 +1,104 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+html, body{
+    background-color: #EAEAEA;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main__title{
+    font-size: 40px;
+    margin: 0 0 40px 2.08vw;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 40px;
+}
+
+.header__home{
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+}
+
+.header__form{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.header__input{
+    font-size: 30px;
+    font-weight: 400;
+    max-width: 70vw;
+    width: 600px;
+    border: none;
+}
+
+.header__button{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.header__input:focus,
+.header__button:focus{
+    outline: none;
+}
+
+.header__search{
+    width: 40px;
+    height: 40px;
+}
+
+.tools__p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.tools__box{
+    display: flex;
+    align-items: center;
+}
+
+.tools__highcharts{
+    margin-right: 20px;
+}
+
+/* HOME PAGE */
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.home__box{
+    background-color: #fff;
+    /* 1920-(4*40)=1800 */
+    /* 1800/2=900 */
+    /* 900*100/1920=46.875 */
+    width: 46.875vw;
+    /* 495*100/1920=25.78 */
+    height: 25.78vw;
+    /* 40*100/1920=2.08 */
+    margin-bottom: 2.08vw;
+    position: relative;
+    border-radius: 5px;
+}
+
+.home__title{
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+/* SEARCH PAGE */

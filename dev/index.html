@@ -4,32 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>CryptoInfos - Accueil</title>
 </head>
 <body>
+    <!-- HEADER -->
     <header class="header">
+        <!-- HOME BUTTON -->
         <a href="/">
             <img src="./icons/home.svg" alt="home icon" class="header__home">
         </a>
+        <!-- SEARCHBAR -->
         <form class="header__form">
             <input type="text" name="search" id="search" placeholder="Rechercher" class="header__input">
             <button type="submit" class="header__button">
                 <img src="./icons/search.svg" alt="search icon" class="header__search">
             </button>
         </form>
+        <!-- TOOLS -->
         <section class="header__tools">
-            <p class="header__p">Powered by</p>
-            <div>
-                <img src="./icons/highcharts.svg" alt="highcharts icon" class="header__highcharts">
-                <img src="./icons/blockchain.svg" alt="blockchain.con icon" class="header__blockchain">
+            <p class="tools__p">Powered by</p>
+            <div class="tools__box">
+                <a href="https://www.highcharts.com/">
+                    <img src="./icons/highcharts.svg" alt="highcharts icon" class="tools__highcharts">
+                </a>
+                <a href="https://www.blockchain.com/">
+                    <img src="./icons/blockchain.svg" alt="blockchain.con icon" class="tools__blockchain">
+                </a>
             </div>
         </section>
     </header>
-    <main class="home">
-        <article class="home__box">
-            <h2 class="home__title">Bitcoin BTC</h2>
-        </article>
+    <!-- MAIN -->
+    <main class="main">
+        <h1 class="main__title">Accueil</h1>
+        <div class="home">
+            <article class="home__box">
+                <h2 class="home__title">Bitcoin BTC</h2>
+            </article>
+            <article class="home__box">
+                <h2 class="home__title">Ethereum ETH</h2>
+            </article>
+            <article class="home__box">
+                <h2 class="home__title">Dogecoin DOGE</h2>
+            </article>
+            <article class="home__box">
+                <h2 class="home__title">Stellar XLM</h2>
+            </article>
+        </div> 
     </main>
 </body>
 </html>
