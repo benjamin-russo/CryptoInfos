@@ -102,3 +102,43 @@ html, body{
 }
 
 /* SEARCH PAGE */
+
+/* MOBILE */
+@media (max-width: 1450px){
+    .header{
+        justify-content: center;
+    }
+
+    .header__tools{
+        display: none;
+    }
+
+    .header__form{
+        margin: 0;
+    }
+}
+
+@media (max-width: 1000px){
+    .home__box{
+        background-color: #fff;
+        /* 1920-(2*40)=1840 */
+        /* 1840*100/1920=95.83 */
+        width: 95.3vw;
+        /* 1012*100/1920=52.71 */
+        height: 52.71vw;
+        /* 40*100/1920=2.08 */
+        margin-bottom: 4vw;
+    }
+}
+
+@media (max-width: 870px){
+    .header{
+        flex-direction: column;
+        margin: 30px 0;
+    }
+
+    .header__home{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}
