@@ -6,12 +6,14 @@ import {
 
 import './style.css';
 import Header from '../Header';
+import Home from '../Home';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <>
       <Header />
-    </div>
+      <Home />
+    </>
   );
 }
 

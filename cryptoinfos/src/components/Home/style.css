@@ -1,0 +1,47 @@
+/* HOME PAGE */
+
+.main__title{
+    font-size: 40px;
+    margin: 0 0 40px 2.08vw;
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.home__box{
+    background-color: #fff;
+    /* 1920-(4*40)=1800 */
+    /* 1800/2=900 */
+    /* 900*100/1920=46.875 */
+    width: 46.875vw;
+    /* 495*100/1920=25.78 */
+    height: 25.78vw;
+    /* 40*100/1920=2.08 */
+    margin-bottom: 2.08vw;
+    position: relative;
+    border-radius: 5px;
+}
+
+.home__title{
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+/* MOBILE */
+@media (max-width: 1000px){
+    .home__box{
+        /* 1920-(2*40)=1840 */
+        /* 1840*100/1920=95.83 */
+        width: 95.3vw;
+        /* 1012*100/1920=52.71 */
+        height: 52.71vw;
+        /* 40*100/1920=2.08 */
+        margin-bottom: 4vw;
+    }
+}

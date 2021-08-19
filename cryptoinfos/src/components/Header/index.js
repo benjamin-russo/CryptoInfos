@@ -4,7 +4,7 @@ import {
 
 import './style.css';
 
-function Header() {
+const Header = () => {
     return (
         <header className="header">
             {/* HOME BUTTON */}
