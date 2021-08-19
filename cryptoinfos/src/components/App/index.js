@@ -7,12 +7,20 @@ import {
 import './style.css';
 import Header from '../Header';
 import Home from '../Home';
+import Search from '../Search';
 
 const App = () => {
   return (
     <>
       <Header />
-      <Home />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/search">
+          <Search />
+        </Route>
+      </Switch>
     </>
   );
 }
