@@ -1,0 +1,7 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+html, body{
+    background-color: #EAEAEA;
+    font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,37 @@
+/* SEARCH PAGE */
+.search{
+    margin: 0 2.08vw;
+}
+.search__box{
+    background-color: #fff;
+    height: 640px;
+    width: 1163.12px;
+    margin-bottom: 2.08vw;
+    border-radius: 5px;
+    position: relative;
+}
+.search__title{
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* MOBILE */
+@media (max-width: 1224px){
+    .search{
+        display: flex;
+        justify-content: center;
+    }
+    .search__box{
+        /* 1920-(2*40)=1840 */
+        /* 1840*100/1920=95.83 */
+        width: 95.3vw;
+        /* 1012*100/1920=52.71 */
+        height: 52.71vw;
+        /* 40*100/1920=2.08 */
+        margin-bottom: 4vw;
+        border-radius: 5px;
+        position: relative;
+    }
+}
