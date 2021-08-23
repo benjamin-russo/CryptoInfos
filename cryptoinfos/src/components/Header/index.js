@@ -12,7 +12,19 @@ const Header = () => {
             </Link>
             {/* SEARCHBAR */}
             <form className="header__form">
-                <input type="text" name="search" id="search" placeholder="Rechercher" className="header__input"></input>
+                {/* <input type="text" name="search" id="search" placeholder="Rechercher" className="header__input"></input> */}
+                <select name="symbol" id="search" className="header__input">
+                    <option value="">Selectionnez une cryptomonnaie</option>
+                    <option value="BTC">Bitcoin | BTC</option>
+                    <option value="ETH">Ethereum | ETH</option>
+                    <option value="ADA">Cardano | ADA</option>
+                    <option value="USDT">Tether USD | USDT</option>
+                    <option value="XRP">Ripple | XRP</option>
+                    <option value="DOGE">Dogecoin | DOGE</option>
+                    <option value="DOT">Polkadot | DOT</option>
+                    <option value="USDC">USD Coin | USDC</option>
+                    <option value="SOL">Solana | SOL</option>
+                </select>
                 <button type="submit" className="header__button">
                     <img src="/icons/search.svg" alt="search icon" className="header__search"></img>
                 </button>
