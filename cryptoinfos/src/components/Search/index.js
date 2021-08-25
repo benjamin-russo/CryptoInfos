@@ -1,6 +1,7 @@
-import "./style.css";
-import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { getOneCryptoPriceChart } from "../../axios";
+
+import "./style.css";
 
 const Search = () => {
     const { search } = useLocation();
@@ -9,6 +10,7 @@ const Search = () => {
         const pair = search.substring(1).split("=");
         if (decodeURIComponent(pair[0]) == "symbol") {
             symbol = decodeURIComponent(pair[1]);
+            getOneCryptoPriceChart(symbol);
         }
     }
     return (

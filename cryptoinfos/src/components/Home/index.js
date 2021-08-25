@@ -1,6 +1,10 @@
+import { useEffect } from "react";
+import { getSomeCryptosPriceCharts } from "../../axios";
+
 import "./style.css";
 
 const Home = () => {
+    getSomeCryptosPriceCharts();
     return (
         <main class="main">
             <h1 class="main__title">Accueil</h1>
